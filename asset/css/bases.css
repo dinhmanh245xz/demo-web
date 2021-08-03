@@ -1,0 +1,27 @@
+/* Base Css */
+:root {
+    --while-color : #fff;
+    --black-color : #000;
+    --text-color : #333;
+
+}
+* {
+    box-sizing: inherit;
+    
+}
+html {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1rem;
+    box-sizing: border-box;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+.grid__half {
+    width: 741px;
+    max-width: 100%;
+    margin: 0 auto;
+}
